@@ -1,60 +1,34 @@
-# Academic GitHub Pages Starter
+# Nilavra Pathak Academic Website
 
-A minimal static website for GitHub Pages.
+This is a Jekyll-based GitHub Pages starter site for Nilavra Pathak.
 
-## Files
+## Upload instructions
 
-```text
-.
-├── index.html
-├── style.css
-├── README.md
-├── CNAME.example
-└── assets/
-    ├── .gitkeep
-    ├── profile.jpg   # add your photo here
-    └── cv.pdf        # add your CV here
-```
-
-## How to publish
-
-1. Create a repository named either:
-   - `yourusername.github.io` for a personal homepage, or
-   - any repo name, such as `academic-site`, for a project-style page.
-
-2. Upload these files to the repository root.
-
-3. Go to:
-   `Settings` → `Pages`
-
-4. Under **Build and deployment**, choose:
+1. Unzip this folder.
+2. Create or open your GitHub repository.
+3. Upload all files and folders to the root of the repository.
+4. Go to `Settings → Pages`.
+5. Choose:
    - Source: `Deploy from a branch`
    - Branch: `main`
    - Folder: `/root`
+6. Save.
 
-5. Save. GitHub will publish the site after the Pages build finishes.
+## Important files to edit first
 
-## What to edit first
+- `_config.yml`: replace `your-github-username` and `your.email@example.com`.
+- `assets/`: add your real `profile.jpg` and `cv.pdf`.
+- `publications.md`: add correct publication titles, links, and venues.
 
-- `index.html`
-  - Replace `Your Name`
-  - Replace email and profile links
-  - Replace project/publication text
-  - Update Google Scholar and GitHub URLs
+## Add a new research page
 
-- `assets/profile.jpg`
-  - Add your profile photo with this exact filename
+Create a file like `_research/new-project-name.md`.
 
-- `assets/cv.pdf`
-  - Add your CV with this exact filename
+## Add a new update
 
-- `style.css`
-  - Change colors, spacing, or typography if needed
+Create a file like `_posts/2026-05-01-update-title.md`.
 
-## Optional custom domain
+## Optional automated research news
 
-If you buy a domain, rename `CNAME.example` to `CNAME` and put only the domain name inside it, for example:
-
-```text
-www.yourdomain.com
-```
+The site includes `.github/workflows/update-research-news.yml`, `scripts/update_research_news.py`, and `data/research_news.json`.
+The workflow can refresh the external research-news feed daily using public RSS feeds.

@@ -1,151 +1,226 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Academic website for a researcher working on machine learning, control, marketing science, and decision systems." />
-  <title>Nilavra Pathak | Senior Machine Learning Scientist</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nilavra Pathak | Machine Learning, Control, and Decision Systems</title>
+  <meta name="description" content="Academic and research portfolio of Nilavra Pathak, Senior Machine Learning Scientist at Expedia Group.">
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <header class="hero">
-    <nav class="nav">
-      <a href="#about">About</a>
-      <a href="#research">Research</a>
-      <a href="#projects">Projects</a>
-      <a href="#publications">Publications</a>
-      <a href="#contact">Contact</a>
-    </nav>
 
-    <div class="hero-content">
-      <div>
-        <p class="eyebrow">  Scientist · Machine Learning · Control · Marketing Science</p>
-        <h1>Your Name</h1>
-        <p class="subtitle">
-          I build data-driven decision systems that combine machine learning,
-          economics, system identification, and control to improve large-scale
-          allocation and optimization problems.
-        </p>
-        <div class="links">
-          <a href="mailto:npathak@expediagroup.com">Email</a>
-          <a href="https://github.com/nilavro">GitHub</a>
-          <a href="https://scholar.google.com/citations?user=YOUR_ID">Google Scholar</a>
-          <a href="assets/cv.pdf">CV</a>
-        </div>
-      </div>
-      <div class="profile-card">
-        <img src="assets/profile.jpg" alt="Profile photo" />
-        <p>Senior Machine Learning Scientist<br />Marketing Data Science</p>
-      </div>
+<body>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="#top">
+        <span class="brand-mark">NP</span>
+        <span>Nilavra Pathak</span>
+      </a>
+
+      <nav class="links" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
   </header>
 
-  <main>
-    <section id="about" class="section">
-      <h2>About</h2>
-      <p>
-        I work at the intersection of machine learning, economics, and control,
-        with a focus on programmatic decision-making systems for marketing,
-        bidding, budget allocation, measurement, and counterfactual evaluation.
-        My research interests include reinforcement learning, system
-        identification, regret-aware policy evaluation, and simulation-based
-        decision environments.
-      </p>
-    </section>
+  <main id="top">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="kicker">Machine Learning · Control · Economics · Decision Systems</p>
+          <h1>Nilavra Pathak</h1>
+          <p class="role">Senior Machine Learning Scientist at Expedia Group</p>
+          <p class="lead">
+            I build data-driven decision systems for marketing science, measurement,
+            bidding, budget allocation, counterfactual evaluation, and large-scale
+            optimization under uncertainty.
+          </p>
 
-    <section id="research" class="section">
-      <h2>Research Themes</h2>
-      <div class="grid">
-        <article class="card">
-          <h3>Control for Marketing Systems</h3>
-          <p>
-            Feedback control, response-curve forecasting, ROAS target steering,
-            and automated budget/spend decision systems.
-          </p>
-        </article>
-        <article class="card">
-          <h3>Regret-Aware Evaluation</h3>
-          <p>
-            Retrospective regret, model-based oracle benchmarks, constrained
-            counterfactuals, and uncertainty-aware allocation auditing.
-          </p>
-        </article>
-        <article class="card">
-          <h3>Simulation and Digital Twins</h3>
-          <p>
-            Semi-synthetic environments for evaluating bidding, allocation,
-            energy, and smart-city decision policies under realistic dynamics.
-          </p>
-        </article>
+          <div class="button-row">
+            <a class="button primary" href="#research">Research portfolio</a>
+            <a class="button secondary" href="#publications">Publications</a>
+            <a class="button ghost" href="assets/cv.pdf">CV</a>
+          </div>
+        </div>
+
+        <aside class="profile-card">
+          <img src="assets/profile-pic.jpg" alt="Nilavra Pathak profile photo">
+          <div class="profile-caption">
+            <h2>Nilavra Pathak</h2>
+            <p>Senior Machine Learning Scientist<br>Expedia Group</p>
+          </div>
+        </aside>
       </div>
     </section>
 
-    <section id="projects" class="section">
-      <h2>Selected Projects</h2>
-      <ul class="project-list">
-        <li>
-          <strong>Response Curve Forecasting and Budget Optimization.</strong>
-          Production-scale modeling and control systems for marketing spend
-          allocation and automated decision support.
-        </li>
-        <li>
-          <strong>Certified Retrospective Regret for Allocation Policies.</strong>
-          Framework for measuring dollars left on the table using
-          constraint-faithful hindsight oracles.
-        </li>
-        <li>
-          <strong>Nonparametric Marginality Zone Detection.</strong>
-          Distributional framework for identifying operating regions where
-          marginal gains become locally unresolved or economically indifferent.
-        </li>
-        <li>
-          <strong>Energy Economist / DataCenterGym Extensions.</strong>
-          Semi-synthetic evaluation environments for data-center, grid,
-          smart-city, and economic impact questions.
-        </li>
-      </ul>
-    </section>
+    <section id="about" class="section wrap two-col">
+      <div>
+        <p class="kicker">About</p>
+        <h2>Decision systems for real-world allocation problems</h2>
+      </div>
 
-    <section id="publications" class="section">
-      <h2>Publications and Working Papers</h2>
-      <div class="pub">
+      <div class="prose">
         <p>
-          <strong>Counting Dollars Left on the Table: Certified Retrospective Regret for Allocation Policies.</strong>
-          Working paper.
+          I am <strong>Nilavra Pathak</strong>, a <strong>Senior Machine Learning Scientist at Expedia Group</strong>,
+          where I work on large-scale machine learning and decision systems for marketing science.
         </p>
-      </div>
-      <div class="pub">
+
         <p>
-          <strong>Auditing Marketing Allocation with Hindsight Regret.</strong>
-          Workshop draft.
+          My work sits at the intersection of <strong>machine learning, economics, system identification,
+          and control</strong>. I am interested in replacing heuristic, manually tuned business decision-making
+          with systematic, measurable, and feedback-driven decision systems.
         </p>
-      </div>
-      <div class="pub">
+
         <p>
-          <strong>Thermal Parameter Estimation for Buildings.</strong>
-          e-Energy 2019.
+          In practice, this includes marketing budget allocation, bidding, campaign automation,
+          response-curve forecasting, counterfactual measurement, regret-aware policy evaluation,
+          and semi-synthetic simulation.
+        </p>
+
+        <p>
+          Before joining Expedia Group, my doctoral research focused on energy and building analytics,
+          using probabilistic machine learning and system identification to model building systems.
         </p>
       </div>
     </section>
 
-    <section id="contact" class="section">
-      <h2>Contact</h2>
-      <p>
-        Email: <a href="mailto:your.email@example.com">your.email@example.com</a>
-      </p>
-      <p>
-        Replace this with links to Google Scholar, LinkedIn, GitHub, arXiv,
-        SSRN, ORCID, or your institutional page.
-      </p>
+    <section id="research" class="section wrap">
+      <div class="section-heading">
+        <p class="kicker">Research portfolio</p>
+        <h2>Selected research directions</h2>
+      </div>
+
+      <div class="card-grid">
+        <article class="research-card">
+          <span class="card-number">01</span>
+          <h3>Response Curve Forecasting and Budget Optimization</h3>
+          <p>
+            Forecasting marketing spend-response curves and using them for scalable
+            budget allocation, bidding, and campaign automation systems.
+          </p>
+        </article>
+
+        <article class="research-card">
+          <span class="card-number">02</span>
+          <h3>Certified Retrospective Regret</h3>
+          <p>
+            Auditing historical allocation decisions using model-based hindsight
+            oracles that respect budget, stability, and operational constraints.
+          </p>
+        </article>
+
+        <article class="research-card">
+          <span class="card-number">03</span>
+          <h3>Nonparametric Marginality Zone Detection</h3>
+          <p>
+            Distributional methods for identifying spend regions where marginal gains
+            become locally weak, ambiguous, or economically indifferent.
+          </p>
+        </article>
+
+        <article class="research-card">
+          <span class="card-number">04</span>
+          <h3>Performative Control for Marketing Systems</h3>
+          <p>
+            Control-oriented modeling of decision systems where budget, bidding,
+            pacing, and targeting decisions change the future environment.
+          </p>
+        </article>
+
+        <article class="research-card">
+          <span class="card-number">05</span>
+          <h3>Energy Economist and DataCenterGym Extensions</h3>
+          <p>
+            Semi-synthetic decision environments for evaluating energy, data center,
+            smart-city, and infrastructure policy questions.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section wrap split-panel">
+      <div>
+        <p class="kicker">Current focus</p>
+        <h2>From prediction to control</h2>
+      </div>
+
+      <div class="pill-list">
+        <span>Response curves</span>
+        <span>Budget optimization</span>
+        <span>Retrospective regret</span>
+        <span>Marginality zones</span>
+        <span>Performative control</span>
+        <span>Digital twins</span>
+      </div>
+    </section>
+
+    <section id="publications" class="section wrap two-col">
+      <div>
+        <p class="kicker">Publications</p>
+        <h2>Selected publications and working papers</h2>
+      </div>
+
+      <div class="prose">
+        <h3>Working Papers</h3>
+        <ul>
+          <li><strong>Counting Dollars Left on the Table: Certified Retrospective Regret for Allocation Policies.</strong></li>
+          <li><strong>Auditing Marketing Allocation with Hindsight Regret.</strong></li>
+          <li><strong>Nonparametric Marginality Zone Detection for Marketing Allocation Systems.</strong></li>
+        </ul>
+
+        <h3>Publications</h3>
+        <ul>
+          <li><strong>Thermal Parameter Estimation for Buildings.</strong> e-Energy 2019.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="news" class="section wrap">
+      <div class="section-heading">
+        <p class="kicker">News</p>
+        <h2>Latest updates</h2>
+      </div>
+
+      <article class="news-card">
+        <time>April 27, 2026</time>
+        <h3>Academic website launched</h3>
+        <p>
+          Launched this website to organize my research portfolio, working papers,
+          project updates, and selected writing on machine learning, control,
+          economics, and decision systems.
+        </p>
+      </article>
+    </section>
+
+    <section id="contact" class="section wrap two-col contact">
+      <div>
+        <p class="kicker">Contact</p>
+        <h2>Connect</h2>
+      </div>
+
+      <div class="prose">
+        <p>
+          Replace these links with your preferred contact, Google Scholar, GitHub,
+          LinkedIn, arXiv, SSRN, or ORCID profile links.
+        </p>
+
+        <ul>
+          <li>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></li>
+          <li>GitHub: <a href="https://github.com/Nilavro">github.com/Nilavro</a></li>
+          <li>CV: <a href="assets/cv.pdf">assets/cv.pdf</a></li>
+        </ul>
+      </div>
     </section>
   </main>
 
-  <footer>
-    <p>© <span id="year"></span> Your Name. Built with GitHub Pages.</p>
+  <footer class="footer">
+    <div class="wrap footer-grid">
+      <p>© 2026 Nilavra Pathak</p>
+      <p>Machine Learning · Control · Economics · Decision Systems</p>
+    </div>
   </footer>
-
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
 </body>
 </html>

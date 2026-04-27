@@ -1,3 +1,17 @@
-theme: jekyll-theme-minimal
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
+title: "Nilavra Pathak"
+description: "Senior Machine Learning Scientist at Expedia Group"
+url: "https://nilavra.github.io"
+
+author:
+  name: "Nilavra Pathak"
+  role: "Senior Machine Learning Scientist"
+  organization: "Expedia Group"
+  email: "npathak@expediagroup.com"
+
+collections:
+  research:
+    output: true
+    permalink: /research/:name/
+
+markdown: kramdown
+theme: null

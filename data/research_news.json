@@ -1,9 +1,9 @@
 [
   {
-    "title": "Sample item: replace this with automated research-news updates",
+    "title": "Sample external research feed item",
     "link": "https://scholar.google.com/",
     "source": "Sample feed",
     "date": "2026-04-27",
-    "summary": "This placeholder appears until the GitHub Action refreshes data/research_news.json."
+    "summary": "Replace this manually or automate it later."
   }
 ]

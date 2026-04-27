@@ -1,34 +1,23 @@
-# Nilavra Pathak Academic Website
+# Nilavra Pathak GitHub Pages Site — Fixed Pack
 
-This is a Jekyll-based GitHub Pages starter site for Nilavra Pathak.
+Configured for: https://nilavro.github.io/Nilavra.github.io/
 
-## Upload instructions
+## Fixed
 
-1. Unzip this folder.
-2. Create or open your GitHub repository.
-3. Upload all files and folders to the root of the repository.
-4. Go to `Settings → Pages`.
-5. Choose:
-   - Source: `Deploy from a branch`
-   - Branch: `main`
-   - Folder: `/root`
-6. Save.
+- `_config.yml` uses `url: "https://nilavro.github.io"` and `baseurl: "/Nilavra.github.io"`.
+- Homepage points to `assets/profile-pic.jpg`.
+- Replaces the placeholder static page with a cleaner Jekyll academic portfolio.
 
-## Important files to edit first
+## Upload
 
-- `_config.yml`: replace `your-github-username` and `your.email@example.com`.
-- `assets/`: add your real `profile.jpg` and `cv.pdf`.
-- `publications.md`: add correct publication titles, links, and venues.
+1. Unzip this file.
+2. Open your GitHub repo: `Nilavra.github.io`.
+3. Upload the unzipped files/folders to the repository root.
+4. Keep your existing `assets/profile-pic.jpg` in the `assets` folder.
+5. In GitHub Pages, use: `Settings → Pages → Deploy from branch → main → /root`.
 
-## Add a new research page
+## Edit next
 
-Create a file like `_research/new-project-name.md`.
-
-## Add a new update
-
-Create a file like `_posts/2026-05-01-update-title.md`.
-
-## Optional automated research news
-
-The site includes `.github/workflows/update-research-news.yml`, `scripts/update_research_news.py`, and `data/research_news.json`.
-The workflow can refresh the external research-news feed daily using public RSS feeds.
+- `_config.yml`: replace `your.email@example.com`.
+- `publications.md`: add exact papers and links.
+- `assets/cv.pdf`: add your CV if you want the CV button to work.

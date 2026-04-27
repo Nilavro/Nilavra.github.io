@@ -1,7 +1,9 @@
-Add these files here:
+Put your existing profile image here:
 
-- `profile.jpg` — your real profile photo.
-- `cv.pdf` — your current CV.
+profile-pic.jpg
 
-The starter site currently uses `profile-placeholder.svg`.
-To use your real photo, edit `index.md` and replace `/assets/profile-placeholder.svg` with `/assets/profile.jpg`.
+The homepage is already configured to use:
+
+assets/profile-pic.jpg
+
+Optional: add cv.pdf here if you want the CV button to work.

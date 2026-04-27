@@ -5,6 +5,7 @@ subtitle: "Machine learning, control, economics, and decision systems."
 permalink: /about/
 ---
 
+
 I am **Nilavra Pathak**, a **Senior Machine Learning Scientist at Expedia Group**, where I work on large-scale machine learning and decision systems for marketing science.
 
 My work sits at the intersection of **machine learning, economics, system identification, and control**. I am interested in how we can replace heuristic, manually tuned business decision-making with systematic, measurable, and feedback-driven decision systems. In practice, this includes problems such as marketing budget allocation, bidding, campaign automation, response-curve forecasting, counterfactual measurement, and regret-aware policy evaluation.

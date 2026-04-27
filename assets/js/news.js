@@ -1,1 +1,23 @@
-(function(){const c=document.getElementById("external-news");if(!c)return;fetch("/data/research_news.json").then(r=>{if(!r.ok)throw new Error("News feed unavailable");return r.json()}).then(items=>{if(!Array.isArray(items)||items.length===0){c.innerHTML="<p class='muted'>No external research news items are available yet.</p>";return}c.innerHTML=items.slice(0,8).map(item=>`<article class="news-item"><p class="date">${item.source||"Research feed"}${item.date?" · "+item.date:""}</p><h3><a href="${item.link}" target="_blank" rel="noopener">${item.title}</a></h3><p>${item.summary||""}</p></article>`).join("")}).catch(()=>{c.innerHTML="<p class='muted'>External research feed is not configured yet. Manual updates above will still work.</p>"})})();
+---
+---
+(function () {
+  const container = document.getElementById("external-news");
+  if (!container) return;
+  fetch("{{ '/data/research_news.json' | relative_url }}")
+    .then(r => r.json())
+    .then(items => {
+      if (!Array.isArray(items) || !items.length) {
+        container.innerHTML = "<p class='muted'>No external research-news items are available yet.</p>";
+        return;
+      }
+      container.innerHTML = items.slice(0, 8).map(item => `
+        <article class="news-card">
+          <time>${item.source || "Research feed"}${item.date ? " · " + item.date : ""}</time>
+          <h3><a href="${item.link}" target="_blank" rel="noopener">${item.title}</a></h3>
+          <p>${item.summary || ""}</p>
+        </article>`).join("");
+    })
+    .catch(() => {
+      container.innerHTML = "<p class='muted'>External feed is not configured yet. Manual updates above still work.</p>";
+    });
+})();

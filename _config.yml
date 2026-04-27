@@ -1,6 +1,7 @@
 title: "Nilavra Pathak"
 description: "Senior Machine Learning Scientist at Expedia Group working on machine learning, control, economics, and decision systems."
-url: "https://your-github-username.github.io"
+url: "https://nilavro.github.io"
+baseurl: "/Nilavra.github.io"
 
 author:
   name: "Nilavra Pathak"
@@ -14,8 +15,5 @@ collections:
     permalink: /research/:name/
 
 markdown: kramdown
+permalink: pretty
 theme: null
-
-exclude:
-  - README.md
-  - scripts/
